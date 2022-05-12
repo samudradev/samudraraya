@@ -1,0 +1,132 @@
+{
+    "Abaimana": {
+        "Id": 0,
+        "Definition": [
+            "(Sastera lama) dubur, kemaluan."
+        ],
+        "Etimology": [
+            "Sanskrit: अभिमान; abhiman"
+        ],
+        "Philology": [
+            "Kamus Dewan Edisi Keempat, 2007: ابايمان",
+            "Kamus Pelajar Edisi Kedua, 2015: ابايمان"
+        ],
+        "Reference": [
+            "Kamus Dewan Edisi Keempat"
+        ]
+    },
+    "Bidadari": {
+        "Id": 1,
+        "Definition": [
+            "Dewi di syurga atau di kayangan.",
+            "Perempuan yang cantik rupawan."
+        ],
+        "Etimology": [
+            "Sanskrit: विध्यधरी; vidhyadharī"
+        ],
+        "Philology": [
+            "MS Malay A1, 1824 (British Library): بيدداري",
+            "Add MS 12382, 1842 (British Library): بيدداري",
+            "Kamus Dewan Edisi Keempat, 2007: بيداداري",
+            "Kamus Pelajar Edisi Kedua, 2015: بيداداري"
+        ],
+        "Reference": [
+            "Kamus Dewan Edisi Keempat",
+            "Kamus Pelajar Edisi Kedua"
+        ]
+    },
+    "Bunga": {
+        "Id": 2,
+        "Definition": [
+            "Bahagian tumbuh-tumbuhan yang biasanya berwarna-warni dan akan menjadi buah.",
+            "Tanda atau alamat bermulanya sesuatu."
+        ],
+        "Etimology": [
+            "Proto-Malayo-Polynesian: /'buŋa/; bunga"
+        ],
+        "Philology": [
+            "MS Malay A1, 1824 (British Library): بوڠا",
+            "Add MS 12382, 1842 (British Library): بوڠا",
+            "Kamus Pelajar Edisi Kedua, 2015: بوڠا"
+        ],
+        "Reference": [
+            "Kamus Pelajar Edisi Kedua"
+        ]
+    },
+    "Burung": {
+        "Id": 3,
+        "Definition": [
+            "Binatang yang mempunyai paruh, dua kaki, dua kepak dan umumnya dapat terbang."
+        ],
+        "Etimology": [
+            ""
+        ],
+        "Philology": [
+            "MS Malay A1, 1824 (British Library): بورڠ",
+            "Add MS 12382, 1842 (British Library): بورڠ",
+            "Kamus Pelajar Edisi Kedua, 2015: بوروڠ"
+        ],
+        "Reference": [
+            "Kamus Pelajar Edisi Kedua"
+        ]
+    },
+    "Dewa": {
+        "Id": 4,
+        "Definition": [
+            "Sesuatu yang dipuja-puja kerana dipercayai berkuasa terhadap alam dan manusia, yang-yang.",
+            "Roh yang dipuja-puja kerana dipercayai berkuasa atas alam dan manusia."
+        ],
+        "Etimology": [
+            "Sanskrit: देव; deva"
+        ],
+        "Philology": [
+            "MS Malay A1, 1824 (British Library): ديوا",
+            "Add MS 12382, 1842 (British Library): ديوا",
+            "Kamus Dewan Edisi Keempat, 2007: ديوا",
+            "Kamus Pelajar Edisi Kedua, 2015: ديوا"
+        ],
+        "Reference": [
+            "Kamus Dewan Edisi Keempat",
+            "Kamus Pelajar Edisi Kedua"
+        ]
+    },
+    "Kerbau": {
+        "Id": 5,
+        "Definition": [
+            "Sejenis binatang peliharaan (seakan-akan lembu rupanya tetapi lebih besar dan kulitnya biasanya berwarna kelabu atau kehitam-hitaman), Bos bubalus.",
+            "Binatang ternakan yang seakan-akan lembu tetapi lebih besar dan umumnya berwarna kelabu kehitam-hitaman, Bubalus bubalis."
+        ],
+        "Etimology": [
+            "Proto-Malayo-Polynesian: /*kAr(ə)baw/; karebau",
+            "Cognate with Khmer ក្របី (krabəy, “water buffalo”)"
+        ],
+        "Philology": [
+            "Kamus Dewan Edisi Keempat, 2007: کرباو",
+            "Kamus Pelajar Edisi Kedua, 2015: کرباو"
+        ],
+        "Reference": [
+            "Kamus Dewan Edisi Keempat",
+            "Kamus Pelajar Edisi Kedua"
+        ]
+    },
+    "Kumbang": {
+        "Id": 6,
+        "Definition": [
+            "Sejenis serangga yang berkepak dan berkulit keras.",
+            "Beberapa jenis serangga yang berkulit keras, berkepak dan suka menyeri bunga (kadang-kadang merosakkan tanaman)."
+        ],
+        "Etimology": [
+            "Proto-Malayo-Polynesian: /*-bəŋ/; bang"
+        ],
+        "Philology": [
+            "MS Malay A1, 1824 (British Library): کمبڠ",
+            "Add MS 12382, 1842 (British Library): کمبڠ",
+            "Kamus Dewan Edisi Keempat, 2007: کومبڠ",
+            "Kamus Pelajar Edisi Kedua, 2015: کومبڠ"
+        ],
+        "Reference": [
+            "Kamus Dewan Edisi Keempat",
+            "Kamus Pelajar Edisi Kedua"
+        ]
+    }
+}
