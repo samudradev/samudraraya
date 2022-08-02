@@ -93,6 +93,7 @@
                     "uniqueItems": false
                 }
             }
-        }
+        },
+        "required": ["Word", "Definition"]
     }
 }
