@@ -6,76 +6,112 @@
     "properties": {
         "Word": {
             "description": "Word in Malay",
+            "type": "string",
+            "minLength": 2
+        },
+        "Properties": {
+            "description": "Properties of the word",
             "type": "object",
             "minLength": 2,
             "properties": {
                 "Jawi": {
-                    "description": "Jawi variations",
+                    "description": "The Arabic alphabet used for the word",
                     "type": "array",
                     "items": {
                         "description": "List of Jawi variations",
-                        "source": "Source of the Jawi variation",
-                        "type": "string",
+                        "type": "object",
+                        "properties": {
+                            "Source": {
+                                "description": "Sources of the variation",
+                                "type": "array",
+                                "items": {
+                                    "description": "Source of the variation",
+                                    "type": "string",
+                                    "uniqueItems": true
+                                }
+                            }
+                        },
                         "minLength": 2
                     },
                     "minItems": 1,
-                    "uniqueItems": false
+                    "uniqueItems": true
                 },
                 "Definition": {
-                    "description": "Word definitions",
+                    "description": "An explanation of the word",
                     "type": "array",
                     "items": {
                         "description": "List of word definitions",
-                        "source": "Source of the word definition",
-                        "type": "string",
+                        "type": "object",
+                        "properties": {
+                            "Source": {
+                                "description": "Sources of the definition",
+                                "type": "array",
+                                "items": {
+                                    "description": "Source of the definition",
+                                    "type": "string",
+                                    "uniqueItems": true
+                                }
+                            }
+                        },
                         "minLength": 2
                     },
                     "minItems": 1,
                     "uniqueItems": true
                 },
                 "Etymology": {
-                    "description": "Word etymologies",
+                    "description": "The history of the word",
                     "type": "array",
                     "items": {
                         "description": "List of word etymologies",
-                        "source": "Source of the word etymology",
-                        "type": "string",
+                        "type": "object",
+                        "properties": {
+                            "Word": {
+                                "description": "Word in particular language",
+                                "type": "string",
+                                "minLength": 2
+                            },
+                            "Pronunciation": {
+                                "description": "Pronunciation of the word",
+                                "type": "string",
+                                "minLength": 2
+                            },
+                            "Source": {
+                                "description": "Sources of the etymology",
+                                "type": "array",
+                                "items": {
+                                    "description": "Source of the etymology",
+                                    "type": "string",
+                                    "uniqueItems": true
+                                }
+                            },
+                            "Language": {
+                                "description": "Language of the word",
+                                "type": "string",
+                                "minLength": 2
+                            }
+                        },
                         "minLength": 2
                     },
                     "minItems": 1,
-                    "uniqueItems": false
+                    "uniqueItems": true
                 },
                 "Philology": {
-                    "description": "Word philologies",
+                    "description": "The study of the word",
                     "type": "array",
                     "items": {
-                        "description": "List of word philologies",
-                        "source": "Source of the word philology",
-                        "type": "string",
-                        "minLength": 2
-                    },
-                    "minItems": 1,
-                    "uniqueItems": false
-                },
-                "Translation": {
-                    "description": "Word translations",
-                    "type": "array",
-                    "items": {
-                        "description": "List of word translations",
-                        "source": "Source of the word translation",
-                        "type": "string",
-                        "minLength": 2
-                    },
-                    "minItems": 1,
-                    "uniqueItems": false
-                },
-                "Example": {
-                    "description": "Word examples",
-                    "type": "array",
-                    "items": {
-                        "description": "List of word examples",
-                        "source": "Source of the word example",
-                        "type": "string",
+                        "description": "List of studies",
+                        "type": "object",
+                        "properties": {
+                            "Source": {
+                                "description": "Sources of the study",
+                                "type": "array",
+                                "items": {
+                                    "description": "Source of the study",
+                                    "type": "string",
+                                    "uniqueItems": true
+                                }
+                            }
+                        },
                         "minLength": 2
                     },
                     "minItems": 1,
@@ -94,6 +130,9 @@
                 }
             }
         },
-        "required": ["Word", "Definition"]
+        "required": [
+            "Word",
+            "Definition"
+        ]
     }
 }
