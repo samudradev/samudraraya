@@ -16,7 +16,7 @@
 title: Samudra Raya
 description: A modern open-source dictionary for Malay linguists.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://samudradev.github.io/samudraraya/" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
@@ -79,7 +79,7 @@ search:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.6"
+  version: "9.2.0"
   # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
   # See also docs/ui-components/code
 
@@ -100,8 +100,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Samudra Raya @ GitHub
-    url: https://github.com/samudradev/samudraraya
+  - title: Samudra Raya @ JSON
+    url: https://raw.githubusercontent.com/samudradev/samudraraya/main/kamus.json
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -110,7 +110,7 @@ nav_external_links:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: 'Copyright &copy; 2017-2022 Patrick Marsceill. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a> <a href="https://www.netlify.com/">This site is powered by Netlify.</a>'
+footer_content: 'Copyright &copy; 2022 Syafiq Hadzir. Licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a>.'
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -120,7 +120,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/samudradev/samudraraya" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_branch: "kamus/dictionary" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
@@ -143,11 +143,6 @@ callouts:
   warning:
     title: Warning
     color: red
-
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-2709176-10
-ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
   - jekyll-seo-tag
